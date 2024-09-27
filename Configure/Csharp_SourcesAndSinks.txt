@@ -1,0 +1,79 @@
+#System.Console/Write -> _SINK_
+
+System.Data.DataSet/GetXml()string  -> _SOURCE_
+#System.Data.Common.DbDataReader/Get -> _SOURCE_
+
+#System.IO.BinaryWriter/Write -> _SINK_
+#System.IO.BufferedStream/Write -> _SINK_
+
+#System.IO.DirectoryInfo/GetFileSystemInfos( -> _SOURCE_
+#System.IO.DirectoryInfo/GetDirectories( -> _SOURCE_
+#System.IO.DirectoryInfo/GetFiles( -> _SOURCE_
+#System.IO.DriveInfo/GetDrives( -> _SOURCE_
+
+#System.IO.File/Append -> _SINK_
+System.IO.File/Copy(string,string)void -> _SINK_
+System.IO.File/Copy(string,string,boolean)void -> _SINK_
+System.IO.File.CreateSymbolicLink(string, string)System.IO.FileSystemInfo -> _SINK_
+System.IO.File/Replace(string,string,string)void -> _SINK_
+#System.IO.File/SetUnixFileMode( -> _SINK_     // Sink는 아닌가?
+#System.IO.File/Write -> _SINK_
+
+System.IO.FileInfo/AppendText()System.IO.StreamWriter -> _SINK_
+System.IO.FileInfo/CopyTo(string)System.IO.StreamWriter -> _SINK_
+
+#System.IO.FileStream/Read -> _SOURCE_
+#System.IO.FileStream/Write -> _SINK_
+System.IO.FileSystemInfo/CreateAsSymbolicLink(string)void -> _SINK_
+#System.IO.StreamReader/Read -> _SOURCE_
+#System.IO.StreamWriter/Write -> _SINK_
+#System.IO.StringWriter/Write -> _SINK_
+#System.IO.TextWriter/Write -> _SINK_
+#System.IO.Pipes.PipeStream/Write -> _SINK_
+#System.IO.BinaryReader/Read -> _SINK_
+#System.IO.BinaryWriter/Write -> _SINK_
+
+
+#System.Net.Dns/GetHost -> _SOURCE_
+System.Net.IPAdress/GetAddressBytes()byte[] -> _SOURCE_
+
+#System.Net.WebClient/UploadData -> _SINK_
+#System.Net.WebClient/UploadFile -> _SINK_
+#System.Net.WebClient/UploadString -> _SINK_
+#System.Net.WebClient/UploadValues -> _SINK_
+
+#System.Net.Http.HttpClient/Get->_SINK_
+#System.Net.Http.HttpClient/Patch ->_SINK_
+#System.Net.Http.HttpClient/Post ->_SINK_
+#System.Net.Http.HttpClient/Put ->_SINK_
+
+#System.Net.Http.Json.HttpClientJsonExtensions/GetFrom -> _SOURCE_
+#System.Net.Http.Json.HttpClientJsonExtensions/Patch -> _SINK_
+#System.Net.Http.Json.HttpClientJsonExtensions/Post-> _SINK_
+#System.Net.Http.Json.HttpClientJsonExtensions/Put -> _SINK_
+#System.Net.Http.Json.HttpContentJsonExtensions/Read -> _SOURCE_
+
+#System.Net.Mail.SmtpClient/SendMail -> _SINK_
+System.Net.Mail.MailAddress/get_Address ()string -> _SOURCE_
+
+#System.Net.NetworkInformation.NetworkInterface/Get -> _SOURCE_
+System.Net.NetworkInformation.PhysicalAddress/GetAddressBytes ()byte[] -> _SOURCE_
+
+#System.Net.Quic.QuicStream/Write -> _SINK_
+
+#System.Net.Sockets.NetworkStream/Write -> _SINK_
+#System.Net.Sockets.Socket/Send-> _SINK_
+#System.Net.Sockets.UdpClient/Send-> _SINK_
+
+#System.Resources.ResourceWriter/AddResource -> _SINK_
+
+#System.Xml.XmlTextReader/Read-> _SOURCE_
+#System.Xml.XmlTextWriter/Write -> _SINK_
+#System.Xml.XmlReader/Read -> _SOURCE_
+#System.Xml.XmlWriter/Write -> _SINK_
+
+#Microsoft.SqlServer.Server.SqlPipe/Send -> _SINK_
+
+#System.Xml.XmlTextWriter/Write -> _SINK_
+#System.Xml.XmlReader/Read -> _SOURCE_
+#System.Xml.XmlWriter/Write -> _SINK_

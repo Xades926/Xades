@@ -1,0 +1,70 @@
+TryInvoke	StaticRedirect
+InvokeAbstract	Method
+InvokeVirtual	Method
+InvokeNonvirtual	Method
+
+
+
+ManagedType = {  Void, Boolean, SByte, Char, Int16, Int32, Int64, Single, Double, Object  }
+
+
+
+CallObjectMethod, CallObjectMethodV, CallObjectMethodA
+
+CallBooleanMethod, CallBooleanMethodV, CallBooleanMethodA
+
+CallByteMethod, CallByteMethodV, CallByteMethodA
+
+CallCharMethod, CallCharMethodV, CallCharMethodA
+
+CallShortMethod, CallShortMethodV, CallShortMethodA
+
+CallIntMethod, CallIntMethodV, CallIntMethodA
+
+CallLongMethod, CallLongMethodV, CallLongMethodA
+
+CallFloatMethod, CallFloatMethodV, CallFloatMethodA
+
+CallDoubleMethod, CallDoubleMethodV, CallDoubleMethodA
+
+CallVoidMethod, CallVoidMethodV, CallVoidMethodA
+
+
+CallNonvirtualObjectMethod, CallNonvirtualObjectMethodV, CallNonvirtualObjectMethodA
+
+CallNonvirtualBooleanMethod, CallNonvirtualBooleanMethodV, CallNonvirtualBooleanMethodA
+
+CallNonvirtualByteMethod, CallNonvirtualByteMethodV, CallNonvirtualByteMethodA
+
+CallNonvirtualCharMethod, CallNonvirtualCharMethodV, CallNonvirtualCharMethodA
+
+CallNonvirtualShortMethod, CallNonvirtualShortMethodV, CallNonvirtualShortMethodA
+
+CallNonvirtualLongMethod, CallNonvirtualLongMethodV, CallNonvirtualLongMethodA
+
+CallNonvirtualFloatMethod, CallNonvirtualFloatMethodV, CallNonvirtualFloatMethodA
+
+CallNonvirtualDoubleMethod, CallNonvirtualDoubleMethodV, CallNonvirtualDoubleMethodA
+
+CallNonvirtualVoidMethod, CallNonvirtualVoidMethodV, CallNonvirtualVoidMethodA
+
+
+CallStaticObjectMethod, CallStaticObjectMethodV, CallStaticObjectMethodA
+
+CallStaticBooleanMethod, CallStaticBooleanMethodV, CallStaticBooleanMethodA
+
+CallStaticByteMethod, CallStaticByteMethodV, CallStaticByteMethodA
+
+CallStaticCharMethod, CallStaticCharMethodV, CallStaticCharMethodA
+
+CallStaticShortMethod, CallStaticShortMethodV, CallStaticShortMethodA
+
+CallStaticIntMethod, CallStaticIntMethodV, CallStaticIntMethodA
+
+CallStaticLongMethod, CallStaticLongMethodV, CallStaticLongMethodA
+
+CallStaticFloatMethod, CallStaticFloatMethodV, CallStaticFloatMethodA
+
+CallStaticDoubleMethod, CallStaticDoubleMethodV, CallStaticDoubleMethodA
+
+CallStaticVoidMethod, CallStaticVoidMethodV, CallStaticVoidMethodA

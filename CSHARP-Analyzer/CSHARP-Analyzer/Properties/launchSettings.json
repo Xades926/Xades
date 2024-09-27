@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Rosyln-Analysis": {
+      "commandName": "Project",
+      "commandLineArgs": "-sln C:\\WorkDir\\nuger_repository\\Core\\Castle.Core.sln\r\n-conf C:\\WorkDir\\Xamarin-TaintAnalyzer\\Configure\r\n-out C:\\WorkDir\\nuger_repository\\Core\\output\r\n-t 900",
+      "nativeDebugging": true
+    },
+    "프로필 1": {
+      "commandName": "Project"
+    }
+  }
+}
